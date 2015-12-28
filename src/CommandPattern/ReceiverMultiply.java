@@ -23,9 +23,9 @@ public class ReceiverMultiply extends Receiver {
         System.out.println("乘积Method：multiply=" + multiply);
     }
 
-    @Override
-    public void sayFinish() {
-        System.out.println("我的【乘积】工作已经完成了！");
-        System.out.println();
-    }
+    // @Override
+    // public void sayFinish() {
+    // System.out.println("我的【乘积】工作已经完成了！");
+    // System.out.println();
+    // }
 }

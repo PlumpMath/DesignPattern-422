@@ -15,10 +15,17 @@ package CommandPattern;
  * 
  * 建议用抽象方法，结合模板方法减少Command之类。
  * 
+ * Receiver接收者：Receiver的2个实现类。在实际应用中一般都会被封装掉（除非非常必要， 例如撤销处理）。
+ * 
+ * abstract而不是implements：定义直接调用的方法。
+ * 
  * @author yunhai
  */
 public abstract class Receiver {
     public abstract void dosomething(int[] arr);
 
-    public abstract void sayFinish();
+    public void sayFinish() {
+        System.out.println("我的【】工作已经完成了！");
+        System.out.println();
+    }
 }
