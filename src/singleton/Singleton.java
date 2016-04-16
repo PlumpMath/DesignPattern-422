@@ -13,6 +13,8 @@ package singleton;
  * 
  * 亦称：饿汉式单例
  * 
+ * 饿汉式：编写简单，但是无法做到延迟创建对象，从而减小负载。
+ * 
  * @author xiaofan
  */
 public class Singleton {
